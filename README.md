@@ -23,7 +23,7 @@
 ## ✨ 关于项目
 
 - 🚀 **最新技术栈**: 基于 React18、React-Router V6、React-Hooks、Mobx、Vite3、Ant-Design 开发
-- 💡 **TypeScript**: 应用程序级 JavaScript 的语言
+- 💡 **JavaScript**: 应用程序级 JavaScript 的语言
 - 📜 **区块**: 通过区块模板快速构建页面
 - 💎 **Hooks**: 使用官方推荐的最新的 react hooks API 代替传统的 class API
 - 📐 **常见设计模式**: 提炼自中后台应用的典型页面和场景
@@ -35,10 +35,10 @@
 
 ```bash
 $ git clone
-$ cd react-half
+$ cd react-ant-design-mobx-admin
 $ cp .env.example .env
-$ pnpm i
-$ pnpm dev
+$ pnpm i 或 npm i
+$ pnpm dev 或 npm run dev
 ```
 
 ## 🖥 浏览器支持
