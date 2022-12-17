@@ -13,8 +13,8 @@ const { Content } = Layout;
 const layoutStyles = { minHeight: "100vh" };
 const contentStyles = { margin: "0 3px" };
 const themes = {
-  light: "https://cdn.jsdelivr.net/npm/antd@4.23.5/dist/antd.min.css",
-  dark: "https://cdn.jsdelivr.net/npm/antd@4.23.5/dist/antd.dark.min.css",
+  // light: "https://cdn.jsdelivr.net/npm/antd@4.23.5/dist/antd.min.css",
+  // dark: "https://cdn.jsdelivr.net/npm/antd@4.23.5/dist/antd.dark.min.css",
 };
 
 function LayoutIndex() {

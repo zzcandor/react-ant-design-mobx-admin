@@ -1,7 +1,7 @@
 import { HashRouter } from "react-router-dom";
 import { QueryClientProvider, QueryClient } from "react-query";
 import Router from "@/routers";
-
+import 'antd/dist/reset.css';
 const queryClient = new QueryClient();
 
 export default function App() {

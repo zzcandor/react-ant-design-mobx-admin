@@ -2,7 +2,7 @@ import { resolve } from "path";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { createHtmlPlugin } from "vite-plugin-html";
-import vitePluginImp from "vite-plugin-imp";
+// import vitePluginImp from "vite-plugin-imp";
 import "dotenv/config";
 
 // https://vitejs.dev/config/
@@ -40,14 +40,14 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    vitePluginImp({
-      libList: [
-        {
-          libName: "antd",
-          style: (name) => `antd/es/${name}/style/index.js`,
-        },
-      ],
-    }),
+    // vitePluginImp({
+    //   libList: [
+    //     {
+    //       libName: "antd",
+    //       style: (name) => `antd/es/${name}/style/index.js`,
+    //     },
+    //   ],
+    // }),
     createHtmlPlugin({
       inject: {
         data: {
