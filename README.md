@@ -22,7 +22,7 @@
 
 ## ✨ 关于项目
 
-- 🚀 **最新技术栈**: 基于 React18、React-Router V6、React-Hooks、Mobx、Vite3、Ant-Design 开发
+- 🚀 **最新技术栈**: 基于 React18、React-Router V6、React-Hooks、Mobx、Vite4、Ant-Design5 开发
 - 💡 **JavaScript**: 应用程序级 JavaScript 的语言
 - 📜 **区块**: 通过区块模板快速构建页面
 - 💎 **Hooks**: 使用官方推荐的最新的 react hooks API 代替传统的 class API
