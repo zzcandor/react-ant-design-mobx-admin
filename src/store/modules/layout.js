@@ -1,13 +1,12 @@
 import { makeAutoObservable } from "mobx";
 
-
 class LayoutStore {
   systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
     ? "dark"
     : "light";
   userTheme = localStorage.getItem("theme");
   theme = this.userTheme || this.systemTheme;
-  collapsed= false;
+  collapsed = false;
   constructor() {
     makeAutoObservable(this);
   }

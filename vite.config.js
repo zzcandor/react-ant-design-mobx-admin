@@ -28,7 +28,11 @@ export default defineConfig({
   build: {
     outDir: "dist",
     minify: "esbuild",
-    // sourcemap: true,
+    target: ["chrome70", "es2015"],
+    cssCodeSplit: true,
+    cssTarget: "chrome70",
+    chunkSizeWarningLimit: 2000,
+    sourcemap: true,
     rollupOptions: {
       output: {
         // Static resource classification and packaging
