@@ -1,12 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import MyApp from "./App";
 import {
   legacyLogicalPropertiesTransformer,
   StyleProvider,
 } from "@ant-design/cssinjs";
-import { ConfigProvider } from "antd";
-import { App } from "antd";
+import { ConfigProvider, App } from "antd";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import MyApp from "./App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <StyleProvider
